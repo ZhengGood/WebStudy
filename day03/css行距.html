@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>行距</title>
+	<style type="text/css">
+		/*.text3{text-indent:2em;line-height:1.3em;font-size:30px}*/
+		/*.text3{text-indent:2em;line-height:100%;font-size:120% }*/
+		/*.text4{line-height:1em;}*/
+		.content{line-height: 1.3em;font-size: 20px}
+		.text3{font-size: 30px;line-height: 1.3em}
+		/*.text4{word-spacing:-10em}   /*单词之前  em */*/
+		/*.text5{letter-spacing: 10px} /*字母之间*/*/
+		/*.text5{text-transform: capitalize;} /*首字母*/
+		.text6{text-transform: uppercase;} 全部大写
+		.text7{text-transform: lowercase;} /*全部小写*/
+		.text8{text-transform: none;} /*M默认*/*/
+
+		.text5{text-decoration: underline overline} 
+		.text6{text-decoration: overline;} 
+		.text7{text-decoration: blink;} 
+		.text8{text-decoration: line-through;}
+
+
+ 
+	</style>
+</head>
+<body>
+	<div class="content">
+	 <p class="text1">第一个参数：一个Intent<span>对象</span>，用于携带将跳转至下一个界面中使用的数据，<span>使用putExtra(A,B)</span>方法，<span>此处存储的数据类型特别多，基本类型全部支持。</span></p>
+
+　　 <p class="text2">第二个参数：如果> = 0,当Activity结束时requestCode将归还在onActivityResult		()中。以便确定返回的数据是从哪个Activity中返回，用来标识目标activity。
+		与下面的resultCode功能一致，Android就是为了保证数据的严格一致性特地设置了两把锁，来</p>
+
+	<p class="text3">在意图跳转的目的地界面调用这个方法把Activity想要返回的数据返回到主Activity，
+第一个参数：当Activity结束时resultCode将归还在onActivityResult()中，一般为RESULT_CANCELED , RESULT_OK该值默认为-1。</p>
+
+ 	<p class="text4">第 二个 参数：一个Intent and sew对象，返回给主Activity的数据。在intent对象携带了回的数据使用putExtra( )方法。
+ 	</p>
+
+
+ 	<p class="text5">activity的数据。intent对象携带了回的数据使用putExtra( )方法。
+ 	</p>
+ 	<p class="text6">6tjk第 二个 参数：一个Intent and sew对象，返回给主Activity的数据。在intent对象携带了回的数据使用putExtra( )方法。
+ 	</p>
+ 	<p class="text7">oo】第 二个 参数：一个Intent and sew对象，返回给主Activity的数据。在intent对象携带了回的数据使用putExtra( )方法。
+ 	</p>
+ 	<p class="text8">sdse第 二个 参数：一个Intent and sew对象，返回给主Activity的数据。在intent对象携带了回的数据使用putExtra( )方法。
+ 	</p>
+ </div>
+	
+</body>
+</html>
